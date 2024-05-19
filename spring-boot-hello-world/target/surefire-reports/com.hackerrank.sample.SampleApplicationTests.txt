@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: com.hackerrank.sample.SampleApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 0.055 s <<< FAILURE! - in com.hackerrank.sample.SampleApplicationTests
+customHelloWithEmptyParamTest  Time elapsed: 0.051 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.springframework.test.web.servlet.MockMvc.perform(org.springframework.test.web.servlet.RequestBuilder)" because "this.mockMvc" is null
+	at com.hackerrank.sample.SampleApplicationTests.customHelloWithEmptyParamTest(SampleApplicationTests.java:63)
+
+defaultHelloTest  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.springframework.test.web.servlet.MockMvc.perform(org.springframework.test.web.servlet.RequestBuilder)" because "this.mockMvc" is null
+	at com.hackerrank.sample.SampleApplicationTests.defaultHelloTest(SampleApplicationTests.java:34)
+
+customHelloTest  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.springframework.test.web.servlet.MockMvc.perform(org.springframework.test.web.servlet.RequestBuilder)" because "this.mockMvc" is null
+	at com.hackerrank.sample.SampleApplicationTests.customHelloTest(SampleApplicationTests.java:53)
+
+defaultHelloWithParamTest  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.springframework.test.web.servlet.MockMvc.perform(org.springframework.test.web.servlet.RequestBuilder)" because "this.mockMvc" is null
+	at com.hackerrank.sample.SampleApplicationTests.defaultHelloWithParamTest(SampleApplicationTests.java:43)
+
+customHelloWithoutParamTest  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.springframework.test.web.servlet.MockMvc.perform(org.springframework.test.web.servlet.RequestBuilder)" because "this.mockMvc" is null
+	at com.hackerrank.sample.SampleApplicationTests.customHelloWithoutParamTest(SampleApplicationTests.java:73)
+
